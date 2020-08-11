@@ -7,7 +7,7 @@
 }
 
 .corCreme {
-  color: #f4edde;;
+  color: #f4edde;
 }
 .corCremeFundo {
   background-color: #f4edde;;
@@ -25,12 +25,20 @@
   color: #0e2773;
 }
 
+.corAzul2Fundo {
+  background-color: #0e2773;
+}
+
 .corAzul3 {
   color: #1438a6;
 }
 
 .corAzul4 {
   color: #1438a6;
+}
+
+.destaqueVinho {
+  background-color: #bf17369e;
 }
 
 body {
@@ -50,10 +58,37 @@ body {
 }
 
 @font-face {
+  font-family: OSregular;
+  src: url("fontes/opensans/OpenSans-Regular.ttf");
+}
+
+.fonteOSlight {
+  font-family: OSregular;
+}
+
+@font-face {
+  font-family: OSbold;
+  src: url("fontes/opensans/OpenSans-Bold.ttf");
+}
+
+.fonteOSbold {
+  font-family: OSbold;
+}
+
+@font-face {
   font-family: ZSlight;
   src: url("fontes/zillaslab/ZillaSlab-Light.ttf");
 }
 
 .fonteZSlight {
   font-family: ZSlight;
+  line-height: 1.5;
+}
+
+/*  */
+
+.botao {
+  border: 2px solid #000;
+  background-color: #f4edde;
+
 }
