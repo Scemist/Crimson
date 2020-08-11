@@ -18,7 +18,7 @@
 }
 
 .corAzul1Fundo {
-  background-color: #0d1440;
+  background-color: #0d1440f0;
 }
 
 .corAzul2 {
@@ -89,6 +89,6 @@ body {
 
 .botao {
   border: 2px solid #000;
-  background-color: #f4edde;
+  background-color: #f4edde60;
 
 }
