@@ -1,0 +1,59 @@
+.corVinho {
+  color: #bf1736;
+}
+
+.corVinhoFundo {
+  background-color: #bf1736;
+}
+
+.corCreme {
+  color: #f4edde;;
+}
+.corCremeFundo {
+  background-color: #f4edde;;
+}
+
+.corAzul1 {
+  color: #0d1440;
+}
+
+.corAzul1Fundo {
+  background-color: #0d1440;
+}
+
+.corAzul2 {
+  color: #0e2773;
+}
+
+.corAzul3 {
+  color: #1438a6;
+}
+
+.corAzul4 {
+  color: #1438a6;
+}
+
+body {
+  background-image: url("imagens/fundo.jpg");
+  background-size: contain;
+}
+
+/*  */
+
+@font-face {
+  font-family: OSlight;
+  src: url("fontes/opensans/OpenSans-Light.ttf");
+}
+
+.fonteOSlight {
+  font-family: OSlight;
+}
+
+@font-face {
+  font-family: ZSlight;
+  src: url("fontes/zillaslab/ZillaSlab-Light.ttf");
+}
+
+.fonteZSlight {
+  font-family: ZSlight;
+}
