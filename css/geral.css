@@ -1,3 +1,5 @@
+/* Cores */
+
 .corVinho {
   color: #bf1736;
 }
@@ -46,15 +48,11 @@ body {
   background-size: contain;
 }
 
-/*  */
+/* Fontes */
 
 @font-face {
   font-family: OSlight;
   src: url("fontes/opensans/OpenSans-Light.ttf");
-}
-
-.fonteOSlight {
-  font-family: OSlight;
 }
 
 @font-face {
@@ -62,17 +60,9 @@ body {
   src: url("fontes/opensans/OpenSans-Regular.ttf");
 }
 
-.fonteOSlight {
-  font-family: OSregular;
-}
-
 @font-face {
   font-family: OSbold;
   src: url("fontes/opensans/OpenSans-Bold.ttf");
-}
-
-.fonteOSbold {
-  font-family: OSbold;
 }
 
 @font-face {
@@ -80,15 +70,90 @@ body {
   src: url("fontes/zillaslab/ZillaSlab-Light.ttf");
 }
 
-.fonteZSlight {
-  font-family: ZSlight;
-  line-height: 1.5;
+@media (max-width: 600px) {
+
+  .fonteOSlight {
+    font-family: OSlight;
+    line-height: 1.5;
+  }
+
+  .fonteOSregular {
+    font-family: OSregular;
+    line-height: 1.5;
+  }
+
+  .fonteOSbold {
+    font-family: OSbold;
+    line-height: 1.5;
+  }
+
+  .fonteZSlight {
+    font-family: ZSlight;
+    line-height: 1.5;
+    font-size: 1em;
+  }
+
+  .destaque {
+    font-size: 1.4em;
+  }
 }
 
-/*  */
+@media (min-width: 601px) {
+
+  .fonteOSlight {
+    font-family: OSlight;
+    line-height: 1.5;
+  }
+
+  .fonteOSregular {
+    font-family: OSregular;
+    line-height: 1.5;
+  }
+
+  .fonteOSbold {
+    font-family: OSbold;
+    line-height: 1.5;
+  }
+
+  .fonteZSlight {
+    font-family: ZSlight;
+    line-height: 1.5;
+    font-size: 1.4em;
+  }
+
+  .destaque {
+    font-size: 1.4em;
+  }
+
+  p {
+    padding: 0 4em;
+  }
+
+  ul {
+    padding: 0 3em;
+  }
+}
+
+/* Elementos */
 
 .botao {
   border: 2px solid #000;
   background-color: #f4edde60;
 
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  height: 1.2em;
+}
+
+.listaUl {
+  list-style-type: circle;
+}
+
+.listaLi {
+  height: auto;
 }
