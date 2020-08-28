@@ -136,6 +136,10 @@ body {
 
 /* Elementos */
 
+.logo {
+  top: -0.4em;
+}
+
 .botao {
   border: 2px solid #000;
   background-color: #f4edde60;
