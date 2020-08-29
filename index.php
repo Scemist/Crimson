@@ -16,75 +16,9 @@
     <main class="container-fluid">
       <section class="row">
 
-        <nav class="navbar navbar-expand-lg navbar-dark d-md-none col-12 corAzul1Fundo">
-          <a class="navbar-brand ml-2" href="index.php">
-            <h2 class="corCreme fonteOSlight d-inline-block position-relative">Crimson</h2>
-            <svg class="position-relative d-inline-block logo" width="1.7em" fill="#fff" enable-background="new 0 0 512 512" viewBox="0 0 512 512">
-              <?php include('css/icone.html'); ?>
-            </svg>
-          </a>
+        <?php include("externo/nav.php"); ?>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav ml-3">
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <hr class="my-0">
-                  QUIZ
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <hr class="my-0">
-                  ADEGA
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <hr class="my-0">
-                  SOBRE
-                </a>
-              </li>
-
-              <li class="nav-item pl-3 parametros">
-                <hr class="my-0">
-                <span class="navbar-text fonteZSlight">
-                  Parâmetros do vinho:
-                </span>
-
-                <a class="nav-link" href="#">
-                  TIPOS
-                </a>
-                <a class="nav-link" href="#">
-                  ADJETIVOS
-                </a>
-                </a>
-                <a class="nav-link" href="#">
-                  CARACTERÍSTICAS
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
-        <aside class="col-12 col-md-1 corAzul1Fundo d-none d-md-inline">
-          <div class="row">
-            <div class="col-12 mt-3 text-center">
-              <a href="index.php">
-                <h2 class="corCreme fonteOSlight position-relative"><span>C</span><br>r<br>i<br>m<br>s<br>o<br>n</h2>
-                <svg class="position-relative d-inline-block logo" width="3em" fill="#fff" enable-background="new 0 0 512 512" viewBox="0 0 512 512">
-                  <?php include('css/icone.html'); ?>
-                </svg>
-              </a>
-            </div>
-          </div>
-        </aside>
+        <?php include("externo/aside.php"); ?>
 
         <article class="col-12 col-md-11">
           <div class="row">
@@ -265,13 +199,25 @@
     </main>
 
     <script src="bootstrap/jquery/jquery-3.3.1.slim.min.js"></script> <!-- jQuery -->
-    <script src="bootstrap/popper/popper.min.js"></script> <!-- Popper.js -->
+    <!-- <script src="bootstrap/popper/popper.min.jss"></script> Popper.js -->
     <script src="bootstrap/js/bootstrap.min.js"></script> <!-- Plugins JavaScript -->
 
     <script type="text/javascript">
 
-    
+      function expandir (){
+
+        var time = new Date();
+        console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+
+        var aside = document.getElementsByTagName("aside");
+        aside.classList.remove ("corAzul1Fundo");
+      }
+
+
+      document.getElementById("MyElement").classList.remove('MyClass');
+
 
     </script>
+
   </body>
 </html>
