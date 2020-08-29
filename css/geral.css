@@ -137,7 +137,7 @@ body {
 /* Elementos */
 
 .logo {
-  top: -0.4em;
+  top: -0.3em;
 }
 
 .botao {
@@ -150,7 +150,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+.sumario li {
   height: 1.2em;
 }
 
@@ -161,3 +161,18 @@ li {
 .listaLi {
   height: auto;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 1.5em;
+  font-family: OSlight;
+}
+
+.parametros .nav-link {
+ font-size: 1em;
+}
+
+/* Animações */
