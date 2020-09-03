@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#0d1440">
 
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> <!-- 4.1.3 -->
     <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Crimson Vinhos</title>
   </head>
@@ -198,24 +198,18 @@
       </section>
     </main>
 
-    <script src="bootstrap/jquery/jquery-3.3.1.slim.min.js"></script> <!-- jQuery -->
-    <!-- <script src="bootstrap/popper/popper.min.jss"></script> Popper.js -->
-    <script src="bootstrap/js/bootstrap.min.js"></script> <!-- Plugins JavaScript -->
-
     <script type="text/javascript">
 
-      function expandir (){
+      function expandir() {
 
-        var time = new Date();
-        console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
-
-        var aside = document.getElementsByTagName("aside");
-        aside.classList.remove ("corAzul1Fundo");
+        barra.classList.remove("col-1")
+        barra.classList.add("col-3")
       }
 
+      barra = window.document.querySelector("aside")
+      corpo = window.document.querySelector("article")
 
-      document.getElementById("MyElement").classList.remove('MyClass');
-
+      barra.addEventListener("click", expandir)
 
     </script>
 

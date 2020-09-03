@@ -1,140 +1,7 @@
-/* Cores */
-
-.corVinho {
-  color: #bf1736;
+* {
+  padding: 0;
+  margin: 0;
 }
-
-.corVinhoFundo {
-  background-color: #bf1736;
-}
-
-.corCreme {
-  color: #f4edde;
-}
-.corCremeFundo {
-  background-color: #f4edde;;
-}
-
-.corAzul1 {
-  color: #0d1440;
-}
-
-.corAzul1Fundo {
-  background-color: #0d1440f0;
-}
-
-.corAzul2 {
-  color: #0e2773;
-}
-
-.corAzul2Fundo {
-  background-color: #0e2773;
-}
-
-.corAzul3 {
-  color: #1438a6;
-}
-
-.corAzul4 {
-  color: #1438a6;
-}
-
-.destaqueVinho {
-  background-color: #bf17369e;
-}
-
-body {
-  background-image: url("imagens/fundo.jpg");
-  background-size: contain;
-}
-
-/* Fontes */
-
-@font-face {
-  font-family: OSlight;
-  src: url("fontes/opensans/OpenSans-Light.ttf");
-}
-
-@font-face {
-  font-family: OSregular;
-  src: url("fontes/opensans/OpenSans-Regular.ttf");
-}
-
-@font-face {
-  font-family: OSbold;
-  src: url("fontes/opensans/OpenSans-Bold.ttf");
-}
-
-@font-face {
-  font-family: ZSlight;
-  src: url("fontes/zillaslab/ZillaSlab-Light.ttf");
-}
-
-@media (max-width: 600px) {
-
-  .fonteOSlight {
-    font-family: OSlight;
-    line-height: 1.5;
-  }
-
-  .fonteOSregular {
-    font-family: OSregular;
-    line-height: 1.5;
-  }
-
-  .fonteOSbold {
-    font-family: OSbold;
-    line-height: 1.5;
-  }
-
-  .fonteZSlight {
-    font-family: ZSlight;
-    line-height: 1.5;
-    font-size: 1em;
-  }
-
-  .destaque {
-    font-size: 1.4em;
-  }
-}
-
-@media (min-width: 601px) {
-
-  .fonteOSlight {
-    font-family: OSlight;
-    line-height: 1.5;
-  }
-
-  .fonteOSregular {
-    font-family: OSregular;
-    line-height: 1.5;
-  }
-
-  .fonteOSbold {
-    font-family: OSbold;
-    line-height: 1.5;
-  }
-
-  .fonteZSlight {
-    font-family: ZSlight;
-    line-height: 1.5;
-    font-size: 1.4em;
-  }
-
-  .destaque {
-    font-size: 1.4em;
-  }
-
-  p {
-    padding: 0 4em;
-  }
-
-  ul {
-    padding: 0 3em;
-  }
-}
-
-/* Elementos */
 
 .logo {
   top: -0.3em;
@@ -173,6 +40,10 @@ a:hover {
 
 .parametros .nav-link {
  font-size: 1em;
+}
+
+aside {
+  cursor: pointer;
 }
 
 /* Animações */
