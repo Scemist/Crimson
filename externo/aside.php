@@ -1,12 +1,15 @@
-<aside class="col-1 corAzul1Fundo d-none d-md-inline">
-  <div class="row">
-    <div class="col-12 mt-3 text-center">
-      <a>
-        <h2 class="corCreme fonteOSlight position-relative"><span>C</span><br>r<br>i<br>m<br>s<br>o<br>n</h2>
-        <svg class="position-relative d-inline-block logo" width="3em" fill="#fff" enable-background="new 0 0 512 512" viewBox="0 0 512 512">
-          <?php include('css/icone.html'); ?>
+<aside class="corAzul1Fundo">
+    <a>
+        <h2 class="corCreme fonteOSlight">C</h2>
+        <h2 class="corCreme fonteOSlight">r</h2>
+        <h2 class="corCreme fonteOSlight">i</h2>
+        <h2 class="corCreme fonteOSlight">m</h2>
+        <h2 class="corCreme fonteOSlight">s</h2>
+        <h2 class="corCreme fonteOSlight">o</h2>
+        <h2 class="corCreme fonteOSlight">n</h2>
+        
+        <svg class="logo" width="3em" fill="#fff" enable-background="new 0 0 512 512" viewBox="0 0 512 512">
+            <?php include('css/icone.html'); ?>
         </svg>
-      </a>
-    </div>
-  </div>
+    </a>
 </aside>
