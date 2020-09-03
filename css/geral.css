@@ -4,17 +4,18 @@
     box-sizing: border-box;
 }
 
-.flex {
+main {
     display: flex;
 }
 
-aside {
+nav {
     display: flex;
     flex-direction: column;
     padding: 2em 0 0 0;
     text-align: center;
     cursor: pointer;
     width: 10%;
+    opacity: 0.9;
 }
 
 section {
@@ -38,9 +39,15 @@ img {
     margin: 2em 0 0 0;
 }
 
-@media screen and (min-width: 768px) {
-    nav {
-        display: none;
+@media screen and (min-width: 768px) {}
+
+@media screen and (max-width: 787px) {
+    main {
+        flex-direction: column;
+    }
+    nav,
+    section {
+        width: 100%;
     }
 }
 

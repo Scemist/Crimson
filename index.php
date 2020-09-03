@@ -13,24 +13,22 @@
 	</head>
 
 	<body class="fundo">
-		<main class="flex">
+		<main>
 
 			<?php include("externo/nav.php"); ?>
-
-			<?php include("externo/aside.php"); ?>
 
 			<section>
 				<div>
 					<header>
 						<p class="fonteOSlight">Crimson Vinhos</p>
-						<h4 class="corAzul1 fonteZSlight destaque">Seja bem vindaô a um mar vermelho crimson, um site inteiramente dedicado a vinhos.</h4>
+						<h4 class="corAzul1 fonteZSlight destaque">Seja bem vinda(o) a um mar vermelho crimson, um site inteiramente dedicado a vinhos.</h4>
 						<hr>
 					</header>
 
 					<article class="imagens">
-						<img src="css/imagens/vinho01.jpg" alt=". . .">
-						<img src="css/imagens/vinho01.jpg" alt=". . .">
-						<img src="css/imagens/vinho01.jpg" alt=". . .">
+						<img src="imagens/vinho01.jpg" alt=". . .">
+						<img src="imagens/vinho02.jpg" alt=". . .">
+						<img src="imagens/vinho03.jpg" alt=". . .">
 					</article>
 
 					<div class="col-12">
@@ -42,7 +40,7 @@
 					<div class="col-12">
 						<hr class="mt-5">
 						<p class="fonteZSlight text-center h4 mt-2">
-							Nós dividimos a calssificação do vinho em três, basicamnte você sempre terá três pontos a considerar de um vinho: tipos; adjetivos e características.
+							Nós dividimos a classificação do vinho em três, basicamnte você sempre terá três pontos a considerar de um vinho: tipos; adjetivos e características.
 						</p>
 
 						<ul class="fonteZSlight h4 mt-5 listaUl">
@@ -195,14 +193,12 @@
 		<script type="text/javascript">
 
 			function expandir() {
-				barra.classList.remove("col-1")
-				barra.classList.add("col-3")
+				console.log("Expandindo")
 			}
 
-			barra = window.document.querySelector("aside")
-			corpo = window.document.querySelector("article")
+			nav = window.document.querySelector("nav")
 
-			barra.addEventListener("click", expandir)
+			// aside.addEventListener("click", expandir)
 			
 		</script>
 	</body>

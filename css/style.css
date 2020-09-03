@@ -116,3 +116,8 @@ h1 {
 hr {
     margin: 2em 1em;
 }
+
+ul,
+li {
+    list-style-type: none;
+}
