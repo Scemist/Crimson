@@ -14,12 +14,52 @@ nav {
     padding: 2em 0 0 0;
     text-align: center;
     cursor: pointer;
-    width: 10%;
-    opacity: 0.9;
+    width: 10vw;
+    opacity: 1;
+    align-self: stretch;
+}
+
+.crimson {
+    background-color: #0d1440;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 22vw;
+    transform: translateX(-55%);
+    transition: transform 0.5s ease-in;
+}
+
+@keyframes logoFade {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-250%);
+    }
+}
+
+.nav-ativa {
+    /* width: 25vw; */
+    transform: translateX(0);
+}
+
+.nav-logo {
+    margin: 2em 0 0 0;
+    position: absolute;
+    width: 10vw;
+    right: 0;
+}
+
+#nav-itens {
+    display: none;
+    flex-direction: column;
 }
 
 section {
-    width: 90%;
+    width: 90vw;
+    text-align: center;
 }
 
 header {

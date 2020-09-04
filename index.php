@@ -192,14 +192,28 @@
 
 		<script type="text/javascript">
 
-			function expandir() {
-				console.log("Expandindo")
+			const navSlide = () => {
+				const nav = window.document.querySelector('.crimson')
+				const logoNav = window.document.querySelector('.nav-logo')	
+				const navLinks = window.document.querySelector('#nav-itens')
+
+				// Ouve a Nav
+				nav.addEventListener('click', () => {
+		
+					// Expande a Nav
+					nav.classList.toggle('nav-ativa')
+
+					// Some o logo
+					logoNav.style.animation = `logoFade 0.5 ease forwards 0.5s`
+
+					// Aparece os links
+					navLinks.style.display = 'flex'
+
+				})
 			}
 
-			nav = window.document.querySelector("nav")
-
-			// aside.addEventListener("click", expandir)
-			
+			navSlide()
+	
 		</script>
 	</body>
 </html>
