@@ -15,7 +15,39 @@
 	<body class="fundo">
 		<main>
 
-			<?php include("externo/nav.php"); ?>
+			<div class="escurecer"></div>
+
+			<nav>
+				<div class="crimson">    
+					<a class="nav-logo">
+						<h2 class="corCreme fonteOSlight">C</h2>
+						<h2 class="corCreme fonteOSlight">r</h2>
+						<h2 class="corCreme fonteOSlight">i</h2>
+						<h2 class="corCreme fonteOSlight">m</h2>
+						<h2 class="corCreme fonteOSlight">s</h2>
+						<h2 class="corCreme fonteOSlight">o</h2>
+						<h2 class="corCreme fonteOSlight">n</h2>
+						
+						<svg class="logo" width="3em" fill="#fff" enable-background="new 0 0 512 512" viewBox="0 0 512 512">
+							<?php include('css/icone.html'); ?>
+						</svg>
+					</a>
+
+					<div id="nav-itens">
+						<a href="" class="logo">
+							<h2 class="corCreme fonteOSlight">Crimson</h2>
+						</a>
+
+						<a href="" class="nav-item">Adega</a>
+						<a href="" class="nav-item">Quiz</a>
+						<a href="" class="nav-item">Tipos</a>
+						<a href="" class="nav-item">Adjetivos</a>
+						<a href="" class="nav-item">Características</a>
+
+						<button class="fechar">Fechar</button>
+					</div>
+				</div>
+			</nav>
 
 			<section>
 				<div>
@@ -190,30 +222,6 @@
 			</section>
 		</main>
 
-		<script type="text/javascript">
-
-			const navSlide = () => {
-				const nav = window.document.querySelector('.crimson')
-				const logoNav = window.document.querySelector('.nav-logo')	
-				const navLinks = window.document.querySelector('#nav-itens')
-
-				// Ouve a Nav
-				nav.addEventListener('click', () => {
-		
-					// Expande a Nav
-					nav.classList.toggle('nav-ativa')
-
-					// Some o logo
-					logoNav.style.animation = `logoFade 0.5 ease forwards 0.5s`
-
-					// Aparece os links
-					navLinks.style.display = 'flex'
-
-				})
-			}
-
-			navSlide()
-	
-		</script>
+		<script src="js/app.js"></script>
 	</body>
 </html>
