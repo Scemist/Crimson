@@ -6,7 +6,7 @@ const navSlide = () => {
     const fechar = window.document.querySelector('.fechar')
 
     // Ouve a Nav
-    nav.addEventListener('click', () => {
+    logoNav.addEventListener('click', () => {
 
         // Expande a Nav
         nav.classList.add('nav-ativa')
@@ -26,8 +26,14 @@ const navSlide = () => {
     })
 
     fechar.addEventListener('click', () => {
+        nav.classList.remove('nav-ativa')
 
+        navLinks.style.display = 'none'
 
+        filtro.style.animation = 'none'
+
+        logoNav.style.animation = `logoFade 0.5 ease 0.5s reverse`
+            // logoNav.style.
     })
 }
 
