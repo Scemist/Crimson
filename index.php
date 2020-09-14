@@ -63,155 +63,155 @@
 						<img src="imagens/vinho03.jpg" alt=". . .">
 					</article>
 
-					<div class="col-12">
-						<p class="fonteZSlight text-center h4 mt-5">
+					<div>
+						<p class="fonteZSlight">
 							Todo o site foi inteiramente projetado de modo único e direto, pensado com o objetivo de ensinar toda a base sobre vinhos. Com isso você vai entender completamente tudo o que é preciso, e então ficará livre para descobrir conhecimentos específicos pelo mundo em cima disso.
 						</p>
 					</div>
 
-					<div class="col-12">
-						<hr class="mt-5">
-						<p class="fonteZSlight text-center h4 mt-2">
+					<div>
+						<hr>
+						<p class="fonteZSlight">
 							Nós dividimos a classificação do vinho em três, basicamnte você sempre terá três pontos a considerar de um vinho: tipos; adjetivos e características.
 						</p>
 
-						<ul class="fonteZSlight h4 mt-5 listaUl">
-							<li class="mt-3 listaLi">Todo vinho está em um dos três tipos existentes.</li>
-							<li class="mt-3 listaLi">Um vinho pode ter um ou mais adjetivos. </li>
-							<li class="mt-3 listaLi">Todo vinho tem as mesmas cinco características, em quantidades diferentes.</li>
+						<ul class="fonteZSlight listaUl">
+							<li class="listaLi">Todo vinho está em um dos três tipos existentes.</li>
+							<li class="listaLi">Um vinho pode ter um ou mais adjetivos. </li>
+							<li class="listaLi">Todo vinho tem as mesmas cinco características, em quantidades diferentes.</li>
 						</ul>
 
-						<hr class="mt-5">
-						<p class="fonteZSlight text-center h4 mt-2">
+						<hr>
+						<p class="fonteZSlight">
 							Então aqui está a lista das páginas para estes três pontos, leia os três, e quando terminas, bem, isso é tudo. No fim desta página está um sumário com tudo, assim você sempre poderá voltar no site para servir como consulta:
 						</p>
 					</div>
 
-					<div class="col-10 col-md-3 mx-auto mt-5">
+					<div>
 						<a href="caracteristicas.php">
-							<button class="botao py-3 w-100 corAzul1 fonteOSregular mt-2">SEUS TIPOS</button>
+							<button class="botao corAzul1 fonteOSregular">SEUS TIPOS</button>
 						</a>
 
 						<a href="caracteristicas.php">
-							<button class="botao py-3 w-100 corAzul1 fonteOSregular mt-2">SEUS ADJETIVOS</button>
+							<button class="botao corAzul1 fonteOSregular">SEUS ADJETIVOS</button>
 						</a>
 
 						<a href="caracteristicas.php">
-							<button class="botao py-3 w-100 corAzul1 fonteOSregular mt-2">SUAS CARACTERÍSTICAS</button>
+							<button class="botao corAzul1 fonteOSregular">SUAS CARACTERÍSTICAS</button>
 						</a>
 					</div>
 				</div>
 
-				<div class="row sumario">
-					<div class="col-12">
-						<hr class="mt-5">
-						<p class="fonteOSregular text-center text-muted mt-2 mb-2">SUMÁRIO COMPLETO DO SITE</p>
+				<div class="sumario">
+					<div>
+						<hr>
+						<p class="fonteOSregular">SUMÁRIO COMPLETO DO SITE</p>
 					</div>
 
-					<div class="col-12 col-md-4">
-						<ul class="mt-5">
-							<h3 class="mt-3 fonteZSlight mb-4">
-								<a href="#" class="h4">
+					<div>
+						<ul>
+							<h3 class="fonteZSlight">
+								<a href="#">
 									Tipos
 								</a>
 							</h3>
-							<li class="pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									TINTO
 								</a>
 							</li>
-							<li class="pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									ROSÉ
 								</a>
 							</li>
-							<li class="pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									BRANCO
 								</a>
 							</li>
 						</ul>
 					</div>
 
-					<div class="col-12 col-md-4">
-						<ul class="mt-5">
-							<h3 class="mt-3 fonteZSlight mb-4">
-								<a href="#" class="h4">
+					<div>
+						<ul>
+							<h3 class="fonteZSlight">
+								<a href="#">
 									Adjetivos
 								</a>
 							</h3>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									TRANQUILO
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									ESPUMANTE
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									FORTIFICADO
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									SOBREMESA
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									GENEROSO
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									VERDE
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									LARANJA
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteOSlight text-muted h4">
+							<li>
+								<a href="#" class="fonteOSlight">
 									AZUL
 								</a>
 							</li>
 						</ul>
 					</div>
 
-					<div class="col-12 col-md-4">
-						<ul class="mt-5">
-							<h3 class="mt-3 fonteZSlight mb-4">
-								<a href="#" class="h4">
+					<div>
+						<ul>
+							<h3 class="fonteZSlight">
+								<a href="#">
 									CARACTERÍSTICAS
 								</a>
 							</h3>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteZSlight h2">
+							<li>
+								<a href="#" class="fonteZSlight">
 									Doçura
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteZSlight h2">
+							<li>
+								<a href="#" class="fonteZSlight">
 									Acidez
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteZSlight h2">
+							<li>
+								<a href="#" class="fonteZSlight">
 									Tanino
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteZSlight h2">
+							<li>
+								<a href="#" class="fonteZSlight">
 									Corpo
 								</a>
 							</li>
-							<li class="mt-2 pl-3 h4">
-								<a href="#" class="fonteZSlight h2">
+							<li>
+								<a href="#" class="fonteZSlight">
 									Álcool
 								</a>
 							</li>
