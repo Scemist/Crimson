@@ -6,8 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="theme-color" content="#0d1440">
 
-		<link rel="stylesheet" href="css/geral.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/geral.css">
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
 
 		<title>Crimson Vinhos</title>
 	</head>
@@ -19,14 +20,14 @@
 
 			<nav>
 				<div class="crimson">    
-					<a class="nav-logo">
-						<h2 class="corCreme fonteOSlight">C</h2>
-						<h2 class="corCreme fonteOSlight">r</h2>
-						<h2 class="corCreme fonteOSlight">i</h2>
-						<h2 class="corCreme fonteOSlight">m</h2>
-						<h2 class="corCreme fonteOSlight">s</h2>
-						<h2 class="corCreme fonteOSlight">o</h2>
-						<h2 class="corCreme fonteOSlight">n</h2>
+					<a id="nav-logo">
+						<h2>C</h2>
+						<h2>r</h2>
+						<h2>i</h2>
+						<h2>m</h2>
+						<h2>s</h2>
+						<h2>o</h2>
+						<h2>n</h2>
 						
 						<svg class="logo" width="3em" fill="#fff" enable-background="new 0 0 512 512" viewBox="0 0 512 512">
 							<?php include('css/icone.html'); ?>
@@ -35,7 +36,7 @@
 
 					<div id="nav-itens">
 						<a href="" class="logo">
-							<h2 class="corCreme fonteOSlight">Crimson</h2>
+							<h2>Crimson</h2>
 						</a>
 
 						<a href="" class="nav-item">Adega</a>

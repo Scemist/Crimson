@@ -1,6 +1,6 @@
 const navSlide = () => {
     const nav = window.document.querySelector('.crimson')
-    const logoNav = window.document.querySelector('.nav-logo')
+    const logoNav = window.document.querySelector('#nav-logo')
     const navLinks = window.document.querySelector('#nav-itens')
     const filtro = window.document.querySelector('.escurecer')
     const fechar = window.document.querySelector('.fechar')
@@ -29,7 +29,9 @@ const navSlide = () => {
         filtro.style.animation = 'none'
         filtro.style.animation = `aclarar 0.5 ease 0.5s`
         logoNav.style.animation = `logoFadeReverse 0.5 ease 1s`
-        console.log('umum')
+        setTimeout(() => {
+            filtro.style.display = 'none'
+        }, 300)
     }
 
     fechar.addEventListener('click', fecharNav)

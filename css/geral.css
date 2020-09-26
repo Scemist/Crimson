@@ -11,7 +11,6 @@ main {
 nav {
     display: flex;
     flex-direction: column;
-    padding: 2em 0 0 0;
     text-align: center;
     width: 10vw;
     opacity: 1;
@@ -43,7 +42,6 @@ nav {
 #nav-itens {
     display: none;
     flex-direction: column;
-    /* padding: 2em 0 0 0; */
     justify-content: space-around;
     transition: 1s;
     height: 100vh;
@@ -52,7 +50,7 @@ nav {
 .nav-item {
     text-decoration: none;
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 1.3em;
     text-transform: uppercase;
 }
 
@@ -70,7 +68,7 @@ nav {
 
 #nav-itens .logo {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2em;
 }
 
 .nav-item:hover {
@@ -127,7 +125,11 @@ img {
 }
 
 .logo {
-    margin: 2em 0 0 0;
+    margin: 1em 0 0 0;
+}
+
+.logo h2 {
+    color: whitesmoke;
 }
 
 @media screen and (min-width: 768px) {
@@ -140,12 +142,18 @@ img {
         transform: translateX(-55%);
         transition: transform 0.5s ease-in;
     }
-    .nav-logo {
+    #nav-logo {
         margin: 2em 0 0 0;
         position: absolute;
         width: 10vw;
         cursor: pointer;
         right: 0;
+    }
+
+    #nav-logo h2 {
+        color: #f4edde;
+        font-size: 1.4em;
+        line-height: 1.1em;
     }
 }
 
