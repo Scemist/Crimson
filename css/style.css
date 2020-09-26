@@ -2,6 +2,7 @@ body {
     background-color: #f4edde;
     background-size: contain;
     /* background-image: url("imagens/fundo.jpg"); */
+    padding-bottom: 3rem;
 }
     
 h1, h2, h3, h4, h5, h6, p, li, a {
@@ -20,6 +21,14 @@ Azul3 #1438a6
 Azul4 #1438a6
 Destaque #bf17369e
 */
+
+.blocoMaior {
+    padding: 0 10%;
+}
+
+.blocoMenor {
+    padding: 0 17%;
+}
 
 p, h1 {
     margin: 2em 0 0 0;

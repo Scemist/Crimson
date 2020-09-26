@@ -50,7 +50,7 @@ nav {
 .nav-item {
     text-decoration: none;
     color: whitesmoke;
-    font-size: 1.3em;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
@@ -75,9 +75,25 @@ nav {
     text-decoration: underline;
 }
 
+.sumario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+
+
+.lista {
+    flex: 1;
+}
+
 section {
     width: 90vw;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -143,7 +159,7 @@ img {
         transition: transform 0.5s ease-in;
     }
     #nav-logo {
-        margin: 2em 0 0 0;
+        margin: 3rem 0 0 0;
         position: absolute;
         width: 10vw;
         cursor: pointer;
@@ -176,7 +192,25 @@ img {
     transition: transform 0.3s;
 }
 
+.botoes {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+
 .botao {
-    border: 2px solid #000;
+    border: 2px solid #000000;
     background-color: #f4edde60;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    width: 20%;
+    cursor: pointer;
+    font-family: 'Crimson Text', serif;
+    font-size: 1rem;
+}
+
+.botao:hover {
+    background-color: #bf1736;
+    border: 2px solid #f4edde;
+    color: #f4edde;
 }
