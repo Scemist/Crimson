@@ -13,7 +13,6 @@ nav {
     flex-direction: column;
     padding: 2em 0 0 0;
     text-align: center;
-    cursor: pointer;
     width: 10vw;
     opacity: 1;
     align-self: stretch;
@@ -30,11 +29,23 @@ nav {
     }
 }
 
+@keyframes logoFadeReverse {
+    from {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 #nav-itens {
     display: none;
     flex-direction: column;
     /* padding: 2em 0 0 0; */
     justify-content: space-around;
+    transition: 1s;
     height: 100vh;
 }
 
@@ -97,6 +108,15 @@ header {
     }
 }
 
+@keyframes aclarar {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 img {
     width: 1px;
     flex-grow: 1;
@@ -112,7 +132,7 @@ img {
 
 @media screen and (min-width: 768px) {
     .crimson {
-        background-color: #0d1440;
+        background: linear-gradient(to top right, #0e2773, #0d1440);
         height: 100vh;
         position: fixed;
         top: 0;
@@ -124,6 +144,7 @@ img {
         margin: 2em 0 0 0;
         position: absolute;
         width: 10vw;
+        cursor: pointer;
         right: 0;
     }
 }
@@ -144,6 +165,7 @@ img {
 .nav-ativa {
     /* width: 25vw; */
     transform: translateX(0);
+    transition: transform 0.3s;
 }
 
 .botao {

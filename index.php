@@ -12,7 +12,7 @@
 		<title>Crimson Vinhos</title>
 	</head>
 
-	<body class="fundo">
+	<body>
 		<main>
 
 			<div class="escurecer"></div>
@@ -52,8 +52,8 @@
 			<section>
 				<div>
 					<header>
-						<p class="fonteOSlight">Crimson Vinhos</p>
-						<h4 class="corAzul1 fonteZSlight destaque">Seja bem vinda(o) a um mar vermelho crimson, um site inteiramente dedicado a vinhos.</h4>
+						<p>Crimson Vinhos</p>
+						<h4 class="corAzul1 destaque">Seja bem vinda(o) a um mar vermelho crimson, um site inteiramente dedicado a vinhos.</h4>
 						<hr>
 					</header>
 
@@ -64,25 +64,25 @@
 					</article>
 
 					<div>
-						<p class="fonteZSlight">
+						<p>
 							Todo o site foi inteiramente projetado de modo único e direto, pensado com o objetivo de ensinar toda a base sobre vinhos. Com isso você vai entender completamente tudo o que é preciso, e então ficará livre para descobrir conhecimentos específicos pelo mundo em cima disso.
 						</p>
 					</div>
 
 					<div>
 						<hr>
-						<p class="fonteZSlight">
+						<p>
 							Nós dividimos a classificação do vinho em três, basicamnte você sempre terá três pontos a considerar de um vinho: tipos; adjetivos e características.
 						</p>
 
-						<ul class="fonteZSlight listaUl">
+						<ul>
 							<li class="listaLi">Todo vinho está em um dos três tipos existentes.</li>
 							<li class="listaLi">Um vinho pode ter um ou mais adjetivos. </li>
 							<li class="listaLi">Todo vinho tem as mesmas cinco características, em quantidades diferentes.</li>
 						</ul>
 
 						<hr>
-						<p class="fonteZSlight">
+						<p>
 							Então aqui está a lista das páginas para estes três pontos, leia os três, e quando terminas, bem, isso é tudo. No fim desta página está um sumário com tudo, assim você sempre poderá voltar no site para servir como consulta:
 						</p>
 					</div>
@@ -97,7 +97,7 @@
 						</a>
 
 						<a href="caracteristicas.php">
-							<button class="botao corAzul1 fonteOSregular">SUAS CARACTERÍSTICAS</button>
+							<button class="botao corAzul1">SUAS CARACTERÍSTICAS</button>
 						</a>
 					</div>
 				</div>
@@ -105,115 +105,77 @@
 				<div class="sumario">
 					<div>
 						<hr>
-						<p class="fonteOSregular">SUMÁRIO COMPLETO DO SITE</p>
+						<p>SUMÁRIO COMPLETO DO SITE</p>
 					</div>
 
 					<div>
 						<ul>
-							<h3 class="fonteZSlight">
-								<a href="#">
-									Tipos
-								</a>
+							<h3>
+								<a href="#">Tipos</a>
 							</h3>
 							<li>
-								<a href="#" class="fonteOSlight">
-									TINTO
-								</a>
+								<a href="#">TINTO</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									ROSÉ
-								</a>
+								<a href="#">ROSÉ</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									BRANCO
-								</a>
+								<a href="#">BRANCO</a>
 							</li>
 						</ul>
 					</div>
 
 					<div>
 						<ul>
-							<h3 class="fonteZSlight">
-								<a href="#">
-									Adjetivos
-								</a>
+							<h3>
+								<a href="#">Adjetivos</a>
 							</h3>
 							<li>
-								<a href="#" class="fonteOSlight">
-									TRANQUILO
-								</a>
+								<a href="#">TRANQUILO</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									ESPUMANTE
-								</a>
+								<a href="#">ESPUMANTE</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									FORTIFICADO
-								</a>
+								<a href="#">FORTIFICADO</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									SOBREMESA
-								</a>
+								<a href="#">SOBREMESA</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									GENEROSO
-								</a>
+								<a href="#">GENEROSO</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									VERDE
-								</a>
+								<a href="#">VERDE</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									LARANJA
-								</a>
+								<a href="#">LARANJA</a>
 							</li>
 							<li>
-								<a href="#" class="fonteOSlight">
-									AZUL
-								</a>
+								<a href="#">AZUL</a>
 							</li>
 						</ul>
 					</div>
 
 					<div>
 						<ul>
-							<h3 class="fonteZSlight">
-								<a href="#">
-									CARACTERÍSTICAS
-								</a>
+							<h3>
+								<a href="#">CARACTERÍSTICAS</a>
 							</h3>
 							<li>
-								<a href="#" class="fonteZSlight">
-									Doçura
-								</a>
+								<a href="#">Doçura</a>
 							</li>
 							<li>
-								<a href="#" class="fonteZSlight">
-									Acidez
-								</a>
+								<a href="#">Acidez</a>
 							</li>
 							<li>
-								<a href="#" class="fonteZSlight">
-									Tanino
-								</a>
+								<a href="#">Tanino</a>
 							</li>
 							<li>
-								<a href="#" class="fonteZSlight">
-									Corpo
-								</a>
+								<a href="#">Corpo</a>
 							</li>
 							<li>
-								<a href="#" class="fonteZSlight">
-									Álcool
-								</a>
+								<a href="#">Álcool</a>
 							</li>
 						</ul>
 					</div>

@@ -1,3 +1,11 @@
+body {
+    background-color: #f4edde;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #676060;
+}
+
 .corVinho {
     color: #bf1736;
 }
@@ -44,7 +52,7 @@
 }
 
 body {
-    background-image: url("imagens/fundo.jpg");
+    /* background-image: url("imagens/fundo.jpg"); */
     background-size: contain;
 }
 

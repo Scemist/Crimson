@@ -5,36 +5,35 @@ const navSlide = () => {
     const filtro = window.document.querySelector('.escurecer')
     const fechar = window.document.querySelector('.fechar')
 
+
     // Ouve a Nav
     logoNav.addEventListener('click', () => {
-
         // Expande a Nav
         nav.classList.add('nav-ativa')
 
-        // Some o logo
+        // Ajustes de estilo
         logoNav.style.animation = `logoFade 0.5 ease forwards 0.5s`
-
-        // Aparece os links
         navLinks.style.display = 'flex'
-
-        // Escurece a tela
+        navLinks.style.transform = 'translateX(0)'
         filtro.style.display = 'block'
         filtro.style.animation = `escurecer 0.5 ease forwards 0.5s`
-
-        // Demais características
-        nav.style.cursor = 'auto'
     })
 
-    fechar.addEventListener('click', () => {
-        nav.classList.remove('nav-ativa')
 
-        navLinks.style.display = 'none'
+    function fecharNav() {
+        // Retrai a Nav
+        nav.classList.remove('nav-ativa') // Retrai a Nav
 
+        // Ajustes de estilo
+        navLinks.style.transform = 'translateX(-50%)'
         filtro.style.animation = 'none'
+        filtro.style.animation = `aclarar 0.5 ease 0.5s`
+        logoNav.style.animation = `logoFadeReverse 0.5 ease 1s`
+        console.log('umum')
+    }
 
-        logoNav.style.animation = `logoFade 0.5 ease 0.5s reverse`
-            // logoNav.style.
-    })
+    fechar.addEventListener('click', fecharNav)
+
 }
 
 navSlide()
