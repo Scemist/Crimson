@@ -1,5 +1,6 @@
 const navSlide = () => {
     const nav = window.document.querySelector('.crimson')
+    const burger = window.document.querySelector('#burger')
     const logoNav = window.document.querySelector('#logoNav')
     const itensNav = window.document.querySelector('#itensNav')
     const filtro = window.document.querySelector('.escurecer')
@@ -7,7 +8,7 @@ const navSlide = () => {
 
 
     // Ouve a Nav
-    logoNav.addEventListener('click', () => {
+    function abrirNav() {
         // Expande a Nav
         nav.classList.add('nav-ativa')
 
@@ -17,7 +18,7 @@ const navSlide = () => {
         itensNav.style.transform = 'translateX(0)'
         filtro.style.display = 'block'
         filtro.style.animation = `escurecer 0.5 ease forwards 0.5s`
-    })
+    }
 
 
     function fecharNav() {
@@ -34,7 +35,7 @@ const navSlide = () => {
         }, 300)
     }
 
-    logoNav.add
+    logoNav.addEventListener('click', abrirNav)
     fechar.addEventListener('click', fecharNav)
 
 }

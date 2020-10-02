@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="theme-color" content="#0d1440">
+
+		<link rel="stylesheet" href="../css/tema.css">
+		<link rel="stylesheet" href="../css/estilo.css">
+		<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+		<title>Tipos de Vinhos - Crimson</title>
+	</head>
+
+    <body>
+        <main>
+  
+            <?php require_once('../externo/nav.php'); ?>
+            
+            <section>
+                <h1>Vinhos e suas características</h1>
+                
+                <h4>As características do vinho é uma das duas classes de parâmetros principais do vinho, juntamente com o tipo.</h4>
+            </section>
+        </main>
+
+        <script src="../js/app.js"></script>
+    </body>
+</html>

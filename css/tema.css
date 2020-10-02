@@ -8,18 +8,18 @@ body {
 h1, h2, h3, h4, h5, h6, p, li, a {
     color: #676060;
     font-family: 'Crimson Text', serif;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
 /*
-Vinho #bf1736
-Creme #f4edde
-Azul1 #0d1440
-Azul2 #0e2773
-Azul3 #1438a6
-Azul4 #1438a6
-Destaque #bf17369e
+Vinho       #bf1736
+Creme       #f4edde
+Azul1       #0d1440
+Azul2       #0e2773
+Azul3       #1438a6
+Azul4       #1438a6
+Destaque    #bf17369e
 */
 
 .blocoMaior {
@@ -31,12 +31,12 @@ Destaque #bf17369e
 }
 
 p, h1 {
-    margin: 2em 0 0 0;
-    padding: 0 2em;
+    margin: 2rem 0 0 0;
+    padding: 0 2rem;
 }
 
 hr {
-    margin: 2em 1em;
+    margin: 2rem 1rem;
 }
 
 ul, li {

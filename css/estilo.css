@@ -1,0 +1,266 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Atributos para mobile */
+
+@media screen and (max-width: 767px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    nav, section {
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+/* Atributos para Desktop */
+
+@media screen and (min-width: 768px) {
+
+    .crimson {
+        background: linear-gradient(to bottom right, #400913, #0d1440);
+        background-color: #0d1440;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        width: 20vw;
+        transform: translateX(-50%);
+        transition: 0.5s;
+    }
+
+    #logoNav {
+        position: absolute;
+        padding: 3rem 0;
+        width: 10vw;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100vh;
+    
+    }
+
+    #verticalLogo h2 {
+        color: #f4edde;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+}
+
+/* Atributos para todos os dispositivos */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 10vw;
+    opacity: 1;
+    align-self: stretch;
+}
+
+#burger {
+    align-self: center;
+    
+    cursor: pointer;
+}
+
+#burger div {
+    background-color: #ffffff;
+    width: 40px;
+    height: 2px;
+    margin: 6px;    
+    transition: all 0.3s ease;
+}
+
+/* 
+.burger .linha1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger .linha2 {
+    opacity: 0;
+}
+
+.burger .linha3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+} */
+
+.nav-ativa {
+    /* width: 25vw; */
+    transform: translateX(0);
+    transition: transform 0.3s;
+}
+
+.botao {
+    border: 2px solid #000000;
+    background-color: #f4edde60;
+    padding: 0.3rem;
+    margin: 0.2rem;
+    width: 90%;
+    cursor: pointer;
+    font-family: 'Crimson Text', serif;
+    font-size: 1rem;
+}
+
+.botao:hover {
+    background-color: #bf1736;
+    border: 2px solid #f4edde;
+    color: #f4edde;
+}
+
+main {
+    display: flex;
+}
+
+#itensNav {
+    display: flex;
+    transform: translateX(-55%);
+    flex-direction: column;
+    justify-content: space-around;
+    transition: 1s;
+    height: 100vh;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.fechar {
+    align-self: baseline;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+#nav-itens .logo {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+#sumario {
+    background: linear-gradient(to bottom right, #0d1440, #400913);
+    padding: 0 0 2rem 0;
+}
+
+#sumario a, #sumario p {
+    color: #d8d3ca;
+}
+
+.sumarioConteudo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+#sumario a:hover {
+    color: #ffffff;
+}
+
+.lista {
+    flex: 1;
+}
+
+section {
+    width: 90vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+.escurecer {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+img {
+    width: 1px;
+    flex-grow: 1;
+}
+
+.imagens {
+    display: flex;
+}
+
+.logo {
+    margin: 1em 0 0 0;
+}
+
+.logo h2 {
+    color: whitesmoke;
+}
+
+/* Animações */
+
+@keyframes logoFade {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-250%);
+    }
+}
+
+@keyframes logoFadeReverse {
+    from {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes escurecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes aclarar {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
