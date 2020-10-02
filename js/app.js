@@ -1,7 +1,7 @@
 const navSlide = () => {
     const nav = window.document.querySelector('.crimson')
-    const logoNav = window.document.querySelector('#nav-logo')
-    const navLinks = window.document.querySelector('#nav-itens')
+    const logoNav = window.document.querySelector('#logoNav')
+    const itensNav = window.document.querySelector('#itensNav')
     const filtro = window.document.querySelector('.escurecer')
     const fechar = window.document.querySelector('.fechar')
 
@@ -13,8 +13,8 @@ const navSlide = () => {
 
         // Ajustes de estilo
         logoNav.style.animation = `logoFade 0.5 ease forwards 0.5s`
-        navLinks.style.display = 'flex'
-        navLinks.style.transform = 'translateX(0)'
+        itensNav.style.display = 'flex'
+        itensNav.style.transform = 'translateX(0)'
         filtro.style.display = 'block'
         filtro.style.animation = `escurecer 0.5 ease forwards 0.5s`
     })
@@ -25,15 +25,16 @@ const navSlide = () => {
         nav.classList.remove('nav-ativa') // Retrai a Nav
 
         // Ajustes de estilo
-        navLinks.style.transform = 'translateX(-50%)'
+        itensNav.style.transform = 'translateX(-55%)'
+        logoNav.style.animation = `logoFadeReverse 0.5s ease`
         filtro.style.animation = 'none'
         filtro.style.animation = `aclarar 0.5 ease 0.5s`
-        logoNav.style.animation = `logoFadeReverse 0.5 ease 1s`
         setTimeout(() => {
             filtro.style.display = 'none'
         }, 300)
     }
 
+    logoNav.add
     fechar.addEventListener('click', fecharNav)
 
 }

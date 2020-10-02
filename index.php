@@ -20,7 +20,7 @@
 
 			<nav>
 				<div class="crimson">    
-					<a id="nav-logo">
+					<a id="logoNav">
 						<h2>C</h2>
 						<h2>r</h2>
 						<h2>i</h2>
@@ -34,7 +34,7 @@
 						</svg>
 					</a>
 
-					<div id="nav-itens">
+					<div id="itensNav">
 						<a href="" class="logo">
 							<h2>Crimson</h2>
 						</a>
@@ -53,7 +53,7 @@
 			<section>
 				<div>
 					<header class="blocoMaior">
-						<p>Crimson Vinhos</p>
+						<p>CRIMSON VINHOS</p>
 						<h4 class="corAzul1 destaque">Seja bem vinda(o) a um mar vermelho crimson, um site inteiramente dedicado a vinhos.</h4>
 						<hr>
 					</header>
@@ -144,7 +144,7 @@
 							</li>
 							<li>
 								<a href="#">Generoso</a>
-							</li>
+							<!-- </li>
 							<li>
 								<a href="#">Verde</a>
 							</li>
@@ -153,7 +153,7 @@
 							</li>
 							<li>
 								<a href="#">Azul</a>
-							</li>
+							</li> -->
 						</ul>
 					</div>
 

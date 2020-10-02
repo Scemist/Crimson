@@ -39,8 +39,27 @@ nav {
     }
 }
 
-#nav-itens {
-    display: none;
+@keyframes escurecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes aclarar {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+#itensNav {
+    display: flex;
+    transform: translateX(-55%);
     flex-direction: column;
     justify-content: space-around;
     transition: 1s;
@@ -83,7 +102,10 @@ nav {
     margin-top: 2rem;
 }
 
-
+.lista a:hover {
+    color: #000000;
+    font-weight: bold;
+}
 
 .lista {
     flex: 1;
@@ -113,24 +135,6 @@ header {
     opacity: 0;
 }
 
-@keyframes escurecer {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes aclarar {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
-}
-
 img {
     width: 1px;
     flex-grow: 1;
@@ -155,10 +159,11 @@ img {
         position: fixed;
         top: 0;
         width: 22vw;
-        transform: translateX(-55%);
-        transition: transform 0.5s ease-in;
+        transform: translateX(-50%);
+        transition: 0.5s;
     }
-    #nav-logo {
+
+    #logoNav {
         margin: 3rem 0 0 0;
         position: absolute;
         width: 10vw;
@@ -166,7 +171,7 @@ img {
         right: 0;
     }
 
-    #nav-logo h2 {
+    #logoNav h2 {
         color: #f4edde;
         font-size: 1.4em;
         line-height: 1.1em;
