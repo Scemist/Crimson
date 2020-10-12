@@ -174,7 +174,11 @@
 							</ul>
 						</div>
 					</div>
+
 				</div>
+
+				<p>É um sistema conceitual que não chegou a ser implantado, mas continua sendo desenvolvido com outros fins.</p>
+				<p>Crimson © TODOS OS DIREITOS RESERVADOS <br> Lucas Gonçalves S. - <a href="https://github.com/Scemist"><b>github.com/Scemist</b></a> - 2020</p>
 
 			</section>
 		</main>
