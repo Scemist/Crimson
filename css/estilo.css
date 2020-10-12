@@ -8,6 +8,10 @@
 
 @media screen and (max-width: 767px) {
 
+    .logo {
+        margin: 0.2rem 0 0 0;
+    }
+
     main {
         flex-direction: column;
     }
@@ -16,14 +20,121 @@
         width: 100%;
     }
 
+    #verticalLogo {
+        order: 2;
+        align-self: center;
+        padding-right: 15vw;
+        flex: 1;
+    }
+
+    #burger {
+        width: 15vw;
+        padding-left: 2vh;
+
+    }
+
+    #logoNav {
+        display: flex;
+        height: 11vh;
+    }
+
     nav {
         display: none;
+        /* width: 100%; */
+        height: 11vh;
+    }
+
+    #verticalLogo h2 {
+        display: inline-block;
+        color:#ffffff;
+        font-size: 1.7rem;
+    }
+
+    .logo {
+        width: 2rem;
+    }
+
+    .crimson {
+        background: linear-gradient(to bottom right, #400913, #0d1440);
+        height: 11vh;
+        align-items: center;
+    }
+
+    section {
+        width: 100vw;
+    }
+
+    #itensNav {
+        background: linear-gradient(to bottom right, #400913, #0d1440);
+        height: 100vh;
+        transform: translateX(-100%);
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100vw;
+        position: fixed;
+        top: 0; 
+        transition: 0.7s;
+    }
+
+    .nav-ativa {
+        /* width: 25vw; */
+        transform: translateX(0);
+        transition: transform 1s;
+    }
+
+    @keyframes logoFade {
+        from {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        to {
+            opacity: 0;
+            transform: translateX(-250%);
+        }
+    }
+    
+    @keyframes logoFadeReverse {
+        from {
+            opacity: 0;
+            transform: translateX(50%);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 }
 
 /* Atributos para Desktop */
 
 @media screen and (min-width: 768px) {
+
+    .nav-ativa {
+        /* width: 25vw; */
+        transform: translateX(0);
+        transition: transform 0.3s;
+    }
+
+    #itensNav {
+        display: flex;
+        transform: translateX(-55%);
+        flex-direction: column;
+        justify-content: space-around;
+        transition: 1s;
+        height: 100vh;
+    }
+
+    .logo {
+        margin: 1em 0 0 0;
+    }
+
+    section {
+        width: 90vw;
+    }
+
+    .logo {
+        width: 3rem;
+    }
 
     .crimson {
         background: linear-gradient(to bottom right, #400913, #0d1440);
@@ -53,6 +164,32 @@
         font-size: 1.6rem;
         line-height: 2rem;
     }
+
+    nav {
+        width: 10vw;
+    }
+
+    @keyframes logoFade {
+        from {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        to {
+            opacity: 0;
+            transform: translateX(-250%);
+        }
+    }
+    
+    @keyframes logoFadeReverse {
+        from {
+            opacity: 0;
+            transform: translateX(50%);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
 }
 
 /* Atributos para todos os dispositivos */
@@ -61,7 +198,6 @@ nav {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 10vw;
     opacity: 1;
     align-self: stretch;
 }
@@ -93,12 +229,6 @@ nav {
     transform: rotate(45deg) translate(-5px, -6px);
 } */
 
-.nav-ativa {
-    /* width: 25vw; */
-    transform: translateX(0);
-    transition: transform 0.3s;
-}
-
 .botao {
     border: 2px solid #000000;
     background-color: #f4edde60;
@@ -118,15 +248,6 @@ nav {
 
 main {
     display: flex;
-}
-
-#itensNav {
-    display: flex;
-    transform: translateX(-55%);
-    flex-direction: column;
-    justify-content: space-around;
-    transition: 1s;
-    height: 100vh;
 }
 
 .nav-item {
@@ -183,7 +304,6 @@ main {
 }
 
 section {
-    width: 90vw;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -215,37 +335,12 @@ img {
     display: flex;
 }
 
-.logo {
-    margin: 1em 0 0 0;
-}
-
-.logo h2 {
+.logoTexto h2 {
     color: whitesmoke;
 }
 
 /* Animações */
 
-@keyframes logoFade {
-    from {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    to {
-        opacity: 0;
-        transform: translateX(-250%);
-    }
-}
-
-@keyframes logoFadeReverse {
-    from {
-        opacity: 0;
-        transform: translateX(50%);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
 
 @keyframes escurecer {
     from {

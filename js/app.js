@@ -26,7 +26,7 @@ const navSlide = () => {
         nav.classList.remove('nav-ativa') // Retrai a Nav
 
         // Ajustes de estilo
-        itensNav.style.transform = 'translateX(-55%)'
+        itensNav.style.transform = 'translateX(-100%)'
         logoNav.style.animation = `logoFadeReverse 0.5s ease`
         filtro.style.animation = 'none'
         filtro.style.animation = `aclarar 0.5 ease 0.5s`
