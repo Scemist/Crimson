@@ -6,14 +6,11 @@ const navSlide = () => {
     const filtro = window.document.querySelector('.escurecer')
     const fechar = window.document.querySelector('.fechar')
 
-    function bloqueio () {
-        window.scrollTo(0, 0)
-    }
-
     // Ouve a Nav
     function abrirNav() {
         // Expande a Nav
         nav.classList.add('nav-ativa')
+
 
         // Ajustes de estilo
         logoNav.style.animation = `logoFade 0.5 ease forwards 0.5s`
@@ -21,8 +18,6 @@ const navSlide = () => {
         itensNav.style.transform = 'translateX(0)'
         filtro.style.display = 'block'
         filtro.style.animation = `escurecer 0.5 ease forwards 0.5s`
-        bloqueio()
-        window.addEventListener('scroll', bloqueio)
     }
 
 
@@ -30,12 +25,12 @@ const navSlide = () => {
         // Retrai a Nav
         nav.classList.remove('nav-ativa') // Retrai a Nav
 
+
         // Ajustes de estilo
         itensNav.style.transform = 'translateX(-100%)'
         logoNav.style.animation = `logoFadeReverse 0.5s ease`
         filtro.style.animation = 'none'
         filtro.style.animation = `aclarar 0.5 ease 0.5s`
-        window.removeEventListener('scroll', bloqueio)
         setTimeout(() => {
             filtro.style.display = 'none'
         }, 300)
