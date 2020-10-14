@@ -22,17 +22,28 @@ Azul4       #1438a6
 Destaque    #bf17369e
 */
 
+@media screen and (max-width: 767px) {
+
+    p, h1 {
+        margin: 2rem 0 0 0;
+        padding: 0 0.9rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    p, h1 {
+        margin: 2rem 0 0 0;
+        padding: 0 2rem;
+    }
+}
+
 .blocoMaior {
     padding: 0 10%;
 }
 
 .blocoMenor {
     padding: 0 17%;
-}
-
-p, h1 {
-    margin: 2rem 0 0 0;
-    padding: 0 2rem;
 }
 
 hr {
