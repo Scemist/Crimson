@@ -8,6 +8,10 @@
 
 @media screen and (max-width: 767px) {
 
+    footer {
+        padding: 0 1rem;
+    }
+
     .sumarioConteudo {
         flex-direction: column;
     }

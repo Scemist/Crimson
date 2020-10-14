@@ -40,7 +40,7 @@ const navSlide = () => {
     logoNav.addEventListener('click', abrirNav)
     fechar.addEventListener('click', fecharNav)
     body.addEventListener('touchstart', fecharNav)
-
+    filtro.addEventListener('click', fecharNav)
 }
 
 navSlide()
