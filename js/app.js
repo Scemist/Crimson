@@ -38,6 +38,7 @@ const navSlide = () => {
 
     logoNav.addEventListener('click', abrirNav)
     fechar.addEventListener('click', fecharNav)
+    filtro.addEventListener('touchstart', fecharNav)
 
 }
 
