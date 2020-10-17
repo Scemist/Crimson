@@ -18,8 +18,10 @@ const navSlide = () => {
         logoNav.style.animation = `logoFade 0.5 ease forwards 0.5s`
         itensNav.style.display = 'flex'
         itensNav.style.transform = 'translateX(0)'
-        filtro.style.display = 'block'
         filtro.style.animation = `escurecer 0.5 ease forwards 0.5s`
+        setTimeout(() => {
+            filtro.style.display = 'block'
+        }, 300)
     }
 
     function fecharNav() {
