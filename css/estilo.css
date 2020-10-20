@@ -67,10 +67,6 @@
         align-items: center;
     }
 
-    section {
-        width: 100vw;
-    }
-
     #itensNav {
         padding: 1rem 0 2.5rem 0;
         background: linear-gradient(to bottom right, #400913, #0d1440);
