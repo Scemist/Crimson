@@ -1,3 +1,9 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 /* Atributos para mobile -------------------------------------------------------------------------*/
 
 @media screen and (max-width: 767px) {
@@ -194,6 +200,41 @@
 
 /* Atributos para todos os dispositivos ------------------------------------------------------------------------- */
 
+nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    opacity: 1;
+    align-self: stretch;
+}
+
+#burger {
+    align-self: center;
+    
+    cursor: pointer;
+}
+
+#burger div {
+    background-color: #ffffff;
+    width: 40px;
+    height: 2px;
+    margin: 6px;    
+    transition: all 0.3s ease;
+}
+
+/* 
+.burger .linha1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger .linha2 {
+    opacity: 0;
+}
+
+.burger .linha3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+} */
+
 .botao {
     border: 2px solid #000000;
     background-color: #f4edde60;
@@ -213,6 +254,34 @@
 
 main {
     display: flex;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.fechar {
+    align-self: baseline;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+#nav-itens .logo {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
 }
 
 #sumario {
