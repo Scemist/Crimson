@@ -81,31 +81,6 @@ nav {
     text-decoration: underline;
 }
 
-.escurecer {
-    position: fixed;
-    display: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-}
-
-section {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-
-main {
-    display: flex;
-}
-
-
 /* Atributos para mobile -------------------------------------------------------------------------*/
 
 @media screen and (max-width: 767px) {
@@ -140,25 +115,4 @@ hr {
 
 ul, li {
     list-style-type: none;
-}
-
-/* Animações ------------------------------------------------------------------------- */
-
-
-@keyframes escurecer {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes aclarar {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
 }
